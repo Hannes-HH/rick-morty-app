@@ -1,3 +1,7 @@
-@import "_base.css";
-@import "_fonts.css";
-@import "_colors.css";
+@import "./_base.css";
+@import "./_fonts.css";
+@import "./_colors.css";
+@import "./components/_dropdown.css";
+@import "./components/_button.css";
+@import "./components/_input-text.css";
+@import "./components/_character-box.css";

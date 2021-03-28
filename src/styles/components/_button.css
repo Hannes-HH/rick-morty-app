@@ -1,0 +1,22 @@
+.header-button {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: 0.6em 1.4em 0.5em 0.8em;
+    width: 45%;
+    height: 40%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px #aaa;
+    border-radius: 0.2em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    /* background-color: #f5bae9; */
+  
+    background: linear-gradient(to bottom, #59c427 0%, #68eca3 100%);
+  }

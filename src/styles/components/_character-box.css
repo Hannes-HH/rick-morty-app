@@ -1,0 +1,36 @@
+.character-box {
+    width: 280px;
+    height: min-content;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 110px 160px;
+  
+    background-color: var(--background-dark);
+  }
+  .character-box__alive {
+    box-shadow: 1px 0px 9px 5px var(--toxic-green);
+    color: var(--toxic-green);
+  }
+  
+  .character-box__unknown {
+    box-shadow: 1px 0px 9px 5px var(--juicy-yellow);
+    color: var(--juicy-yellow);
+  }
+  .character-box__dead {
+    box-shadow: 1px 0px 9px 5px var(--dangerous-red);
+    color: var(--dangerous-red);
+  }
+  
+  .character-box__image {
+    grid-column: 1 / 2;
+  
+    height: 90px;
+  
+    border-radius: 15%;
+    object-fit: cover;
+  }
+  
+  .character-box__titel {
+    grid-column: 2 / 3;
+    font-size: 16px;
+  }
